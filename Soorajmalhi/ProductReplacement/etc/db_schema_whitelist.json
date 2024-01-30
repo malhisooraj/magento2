@@ -1,0 +1,16 @@
+{
+    "quote_item": {
+        "column": {
+            "door_model": true,
+            "door_color": true,
+            "cabinet_color": true
+        }
+    },
+    "sales_order_item": {
+        "column": {
+            "door_model": true,
+            "door_color": true,
+            "cabinet_color": true
+        }
+    }
+}

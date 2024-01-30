@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Soorajmalhi
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category   Soorajmalhi
+ * @package    Soorajmalhi_ProductReplacement
+ * @copyright  Copyright (c) 2023 Soorajmalhi
+ * @author     Sooraj Malhi <soorajmalhi@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Bundle\Model\Product\Type" type="Soorajmalhi\ProductReplacement\Model\Bundle\Product\Type"/>
+    <type name="Soorajmalhi\ProductReplacement\Logger\Logger">
+        <arguments>
+            <argument name="name" xsi:type="string">ProductReplacementLog</argument>
+            <argument name="handlers" xsi:type="array">
+                <item name="system" xsi:type="object">Soorajmalhi\ProductReplacement\Logger\Handler</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

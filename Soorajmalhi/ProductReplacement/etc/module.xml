@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Soorajmalhi
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category   Soorajmalhi
+ * @package    Soorajmalhi_ProductReplacement
+ * @copyright  Copyright (c) 2023 Soorajmalhi
+ * @author     Sooraj Malhi <soorajmalhi@gmail.com
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Soorajmalhi_ProductReplacement" setup_version="1.0.0" />
+</config>
